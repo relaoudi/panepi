@@ -245,7 +245,7 @@ percentage = FormatTemplate.percentage(0)
 #Initialize the app - incorporate css
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP],prevent_initial_callbacks=True)
-server=server.app
+#server=server.app
 
 # In[ ]:
 
